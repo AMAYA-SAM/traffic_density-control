@@ -9,11 +9,11 @@ import matplotlib.pyplot as plt
 import random 
 import time
 
-car_cascade = cv2.CascadeClassifier("C:\\Users\\amaya\\Desktop\\level2.3\\cars.xml")
-lane1=cv2.VideoCapture("C:\\Users\\amaya\\Desktop\\level2.3\\empty.mp4")
-lane2=cv2.VideoCapture("C:\\Users\\amaya\\Desktop\\level2.3\\low.mp4")
-lane3=cv2.VideoCapture("C:\\Users\\amaya\\Desktop\\level2.3\\mid.mp4")
-lane4=cv2.VideoCapture("C:\\Users\\amaya\\Desktop\\level2.3\\high.mp4")
+car_cascade = cv2.CascadeClassifier("cars.xml")
+lane1=cv2.VideoCapture("empty.mp4")
+lane2=cv2.VideoCapture("low.mp4")
+lane3=cv2.VideoCapture("mid.mp4")
+lane4=cv2.VideoCapture("high.mp4")
 
 def getcount(a):
     if a==1:
